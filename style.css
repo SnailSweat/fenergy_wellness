@@ -372,7 +372,91 @@ p {
         padding: 12px 25px;
     }
 }
+/* --- Basic Styling and Reset (Optional) --- */
 
+.section-padding {
+    padding: 60px 0; /* Example padding for the section */
+}
+
+.bg-light {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    width: 85%; /* Adjust container width as needed */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Some side padding */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* --- Testimonial Carousel Styles --- */
+.testimonial-carousel {
+    overflow: hidden; /*  Hide slides that are outside the visible area */
+    position: relative; /*  For positioning navigation */
+}
+
+.testimonial-slide {
+    display: none; /* Initially hide all slides */
+}
+
+.testimonial-slide.active {
+    display: block; /* Show the active slide */
+}
+
+.testimonial-item {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-item p { /* Style for the testimonial text itself */
+    font-style: italic;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #777;
+    font-size: 0.95em;
+}
+
+/* --- Carousel Navigation --- */
+.carousel-navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-navigation button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #007bff; /* Example button color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-navigation button:hover {
+    background-color: #0056b3;
+}
+
+.carousel-navigation button:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
 /* --- Accessibility Reminder --- */
 /*
 IMPORTANT: Remember to check color contrast ratios for text and backgrounds
