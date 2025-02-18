@@ -54,7 +54,7 @@ a {
 }
 
 .bg-light {
-    background-color: var(--background-light); /* Light grey background for alternating sections */
+    background-color: var(--background-light) !important; /* Light grey background for alternating sections */
 }
 
 /* Typography */
@@ -379,7 +379,7 @@ p {
 }
 
 .bg-light {
-    background-color: #4E6E8A; /* Light background color */
+    background-color: #4E6E8A !important; /* Light background color */
 }
 
 .container {
