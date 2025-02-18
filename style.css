@@ -12,7 +12,7 @@
     --primary-color: #1C6E8F;         /* Deep Blue-Green */
     --secondary-color-1: #FCF7DA;      /* Warm Beige/Cream */
     --secondary-color-2: #E0E0E0;      /* Light Gray */
-    --accent-color: #B2BEB5;           /* Muted Sage Green */
+    --accent-color: #748DA6;           /* Muted Steel Blue*/
     --text-color-dark: #333;           /* Dark Gray for primary text (like headings) */
     --text-color-light: #555;          /* Lighter Gray for secondary text, body copy */
     --background-light: #CECFAD;       /* Light Background (like for sections) */
@@ -54,7 +54,7 @@ a {
 }
 
 .bg-light {
-    background-color: var(--background-light); /* Light grey background for alternating sections */
+    background-color: var(--accent-color); /* Light grey background for alternating sections */
 }
 
 /* Typography */
