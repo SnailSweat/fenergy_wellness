@@ -11,9 +11,11 @@
 :root {
     --primary-color: #1C6E8F;         /* Deep Blue-Green */
     --secondary-color-1: #FCF7DA;      /* Warm Beige/Cream */
+    --secondary-color-2: #E0E0E0;      /* Light Gray */
+    --accent-color: #748DA6;           /* Muted Steel Blue*/
     --text-color-dark: #333;           /* Dark Gray for primary text (like headings) */
     --text-color-light: #555;          /* Lighter Gray for secondary text, body copy */
-    --background-light: ##E0E0E0;       /* Light Background (like for sections) */
+    --background-light: #E0E0E0;       /* Light Background (like for sections) */
     --background-hero: #e0f7fa;        /* Hero Section Background (light cyan/teal - we can keep this or adjust with palette) */
     --white: #fff;                    /* Pure White */
 }
