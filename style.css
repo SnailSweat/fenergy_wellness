@@ -15,7 +15,7 @@
     --accent-color: #748DA6;           /* Muted Steel Blue*/
     --text-color-dark: #333;           /* Dark Gray for primary text (like headings) */
     --text-color-light: #555;          /* Lighter Gray for secondary text, body copy */
-    --background-light: #69747D;       /* Light Background (like for sections) */
+    --background-light: #6994C7;       /* Light Background (like for sections) */
     --background-hero: #e0f7fa;        /* Hero Section Background (light cyan/teal - we can keep this or adjust with palette) */
     --white: #fff;                    /* Pure White */
 }
@@ -379,7 +379,7 @@ p {
 }
 
 .bg-light {
-    background-color: #4E6E8A !important; /* Light background color */
+    background-color: #6994C7 !important; /* Light background color */
 }
 
 .container {
