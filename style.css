@@ -215,6 +215,7 @@ p {
 }
 
 /* About Section */
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -227,8 +228,13 @@ p {
     overflow: hidden; /* Ensure image stays within rounded corners */
 }
 
+/* Style for the box around About Section text */
 .about-text {
-    /* Text content for About section */
+    border: 2px solid var(--accent-color); /* Border style, width, and color */
+    padding: 30px;                      /* Padding inside the box */
+    border-radius: 10px;                 /* Optional: Rounded corners for the box */
+    background-color: var(--white);      /* Optional: White background for the box, to make it stand out */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
 }
 
 /* Services Section */
