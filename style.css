@@ -11,7 +11,7 @@
 :root {
     --primary-color: #1C6E8F;         /* Deep Blue-Green */
     --secondary-color-1: #FCF7DA;      /* Warm Beige/Cream */
-    --secondary-color-2: #E0E0E0;      /* Light Gray */
+    --secondary-color-2: #748DA6;      /* Light Gray */
     --accent-color: #748DA6;           /* Muted Steel Blue*/
     --text-color-dark: #333;           /* Dark Gray for primary text (like headings) */
     --text-color-light: #555;          /* Lighter Gray for secondary text, body copy */
