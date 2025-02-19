@@ -2,7 +2,7 @@
 
 This landing page promotes my practice, Fenergy Wellness. The goal of this page is to generate leads by collecting email addresses and to directly book appointments.
 
-[Screenshot of Fenergy Wellness Landing Page][(Images/Fenergy wellness screenshot.jpg)]
+[Screenshot of Fenergy Wellness Landing Page](Images/Fenergy wellness screenshot.jpg)
 
 ## Technologies Used
 
