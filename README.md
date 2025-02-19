@@ -7,8 +7,8 @@ This landing page promotes my practice, Fenergy Wellness. The goal of this page 
 ## Technologies Used
 
 * HTML
-* CSS (e.g., Tailwind CSS, Bootstrap, or plain CSS)
-* JavaScript (e.g., vanilla JS, React, Vue, or other frameworks/libraries)
+* CSS
+* JavaScript 
   
 
   ## How to View
