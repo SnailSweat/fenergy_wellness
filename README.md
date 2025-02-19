@@ -17,7 +17,7 @@ Simply open the `index.html` file in your web browser.
 
 ## Deployed Website
 
-[(https://red-the-firestarter.github.io/fenergy_wellness)](https://red-the-firestarter.github.io/fenergy_wellness/)
+[(https://fenergywellness.ca)](https://fenergywellness.ca)
 
 ## License
 
