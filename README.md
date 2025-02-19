@@ -17,7 +17,7 @@ Simply open the `index.html` file in your web browser.
 
 ## Deployed Website
 
-[(https://fenergywellness.ca)](https://fenergywellness.ca)
+[https://fenergywellness.ca](https://fenergywellness.ca)
 
 ## License
 
