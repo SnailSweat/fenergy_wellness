@@ -224,6 +224,7 @@ p {
 }
 
 .about-image {
+    border: 2px solid var(--accent-color); /* Border style, width, and color */
     border-radius: 8px; /* Rounded corners for image */
     overflow: hidden; /* Ensure image stays within rounded corners */
 }
