@@ -243,13 +243,6 @@ p {
 }
 
 /* Services Section */
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-    gap: 30px;
-    text-align: center;
-    align-items: stretch; /* Add this line to stretch grid items to equal height */
-}
 
 
 .services-item {
@@ -261,7 +254,7 @@ p {
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 
     display: flex;          /* Enable flexbox for services-item */
-    flex-direction: column; /* Stack content vertically inside benefit-item */
+    flex-direction: column; /* Stack content vertically inside services-item */
 }
 
 .services-item h4 {
