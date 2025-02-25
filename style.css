@@ -58,7 +58,7 @@ a {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-bottom: 20px;
@@ -76,6 +76,10 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+h4 {
+    font-size:1.0rem;
 }
 
 p {
@@ -256,12 +260,12 @@ p {
     /* background-color: white; */
     /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
 
-    display: flex;          /* Enable flexbox for benefit-item */
+    display: flex;          /* Enable flexbox for services-item */
     flex-direction: column; /* Stack content vertically inside benefit-item */
 }
 
 .services-item h4 {
-    margin-bottom: 10px; /* Keep existing margin-bottom for h3 */
+    margin-bottom: 10px; /* Keep existing margin-bottom for h4 */
     min-height: 2rem;    /* Add a minimum height to h3 - adjust this value */
     display: flex;        /* Make h4 a flex container itself */
     align-items: center;  /* Vertically center the text within h4 */
