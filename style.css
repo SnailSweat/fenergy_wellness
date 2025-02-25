@@ -244,7 +244,10 @@ p {
 
 /* Services Section */
 
-
+.services-content
+{
+    text-align:center
+}
 .services-item {
     text-align: center;
     padding: 20px; /* Keep existing padding or adjust as needed */
@@ -452,11 +455,11 @@ h2 {
     margin-top: 20px;
 }
 
-.carousel-navigation button {
+.carousel-navigation  {
     padding: 10px 20px;
     margin: 0 10px;
     border: none;
-    background-color: #007bff; /* Example button color */
+    background-color: #007bff; /* Example  color */
     color: white;
     border-radius: 5px;
     cursor: pointer;
