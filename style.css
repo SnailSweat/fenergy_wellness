@@ -239,7 +239,9 @@ p {
 }
 
 /* Services Section */
+
 .services-list {
+    text-align: center;
     list-style: none; /* Remove default list bullets */
     padding-left: 0; /* Remove default left padding for ul */
 }
