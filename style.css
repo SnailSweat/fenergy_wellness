@@ -244,10 +244,10 @@ p {
 
 /* Services Section */
 
-.services-content
-{
-    text-align:center;
+.services{
+    text-align: center;
 }
+
 .services-item {
     text-align: center;
     padding: 20px; /* Keep existing padding or adjust as needed */
