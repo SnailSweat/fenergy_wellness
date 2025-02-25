@@ -415,6 +415,7 @@ h2 {
 
 /* --- Testimonial Carousel Styles --- */
 .testimonial-carousel {
+    text-align: center;
     overflow: hidden; /*  Hide slides that are outside the visible area */
     position: relative; /*  For positioning navigation */
 }
@@ -459,7 +460,7 @@ h2 {
     padding: 10px 20px;
     margin: 0 10px;
     border: none;
-    background-color: #007bff; /* Example  color */
+    background-color: #1C6E8F; /* Example  color */
     color: white;
     border-radius: 5px;
     cursor: pointer;
