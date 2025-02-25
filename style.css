@@ -239,26 +239,35 @@ p {
 }
 
 /* Services Section */
-
-.services-list {
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 30px;
     text-align: center;
-    list-style: none; /* Remove default list bullets */
-    padding-left: 0; /* Remove default left padding for ul */
+    align-items: stretch; /* Add this line to stretch grid items to equal height */
 }
 
-.services-list li {
-    margin-bottom: 15px;
-    padding-left: 25px; /* Add some left padding for indentation */
-    position: relative; /* For pseudo-element bullet */
+
+.services-item {
+    text-align: center;
+    padding: 20px; /* Keep existing padding or adjust as needed */
+    padding-bottom: 30px; /* Keep your adjusted bottom padding */
+    /* border-radius: 8px; */
+    /* background-color: white; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+
+    display: flex;          /* Enable flexbox for benefit-item */
+    flex-direction: column; /* Stack content vertically inside benefit-item */
 }
 
-.services-list li::before {
-    content: "\2022"; /* Unicode for a bullet point */
-    position: absolute;
-    left: 0;
-    top: 5px;
-    color: var(--primary-color); /* Bullet point color - primary blue-green */
+.services-item h4 {
+    margin-bottom: 10px; /* Keep existing margin-bottom for h3 */
+    min-height: 2rem;    /* Add a minimum height to h3 - adjust this value */
+    display: flex;        /* Make h4 a flex container itself */
+    align-items: center;  /* Vertically center the text within h4 */
+    justify-content: center; /* Optionally center text horizontally within h4 if needed */
 }
+
 
 /* Testimonials Section */
 .testimonial-grid {
