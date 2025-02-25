@@ -44,6 +44,7 @@ a {
 }
 
 .section-padding {
+    text-align: center;
     padding: 80px 0; /* Top and bottom padding for sections */
 }
 
